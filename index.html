@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration-form</title>
+</head>
+
+<body>
+    <div class="form">
+        <h2>Логін</h2>
+        <br>
+        <form action="">
+            <label for="name">Ім'я користувача:</label>
+            <input type="text" id="name" name="name" placeholder="напишіть ім'я">
+            <br>
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required placeholder="напишіть пароль">
+            <br>
+            <div>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">Запам'ятати мене</label>
+            </div>
+        </form>
+
+        <h2>Особиста інформація</h2>
+        <br>
+        <form action="">
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" placeholder="напишіть пошту">
+            <br>
+            <label for="birthday">Дата народження:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <label for="time">Час:</label>
+            <input type="time" id="time" name="time">
+            <br>
+            <div class="gender">
+                <label for="gender">Оберіть стать</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Чоловіча</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жіноча</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+
+                <label for="other">Інше</label>
+            </div>
+        </form>
+        
+        <h2>Деталі</h2><br>
+        <form action="">
+            <label for="number">Улюблене число:</label>
+            <input type="number" id="number" name="number">
+            <br>
+            <label for="volume">Діапазон:</label>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+            <br>
+            <label for="feedback">Ваш відгук:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="40"
+                placeholder="Напишіть свій відгук тут..."></textarea>
+            <br>
+            <label for="myfile">Оберіть файл:</label>
+            <input type="file" id="myfile" name="myfile">
+        </form>
+        <br>
+        <div class="btn">
+
+            <button type="button">Button</button>
+            <br>
+            <button type="reset">Reset</button>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
