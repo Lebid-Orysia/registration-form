@@ -52,4 +52,9 @@ h2 {
     padding: 20px 70px;
     background-color: rgb(75, 123, 112);
     border: none;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(40, 63, 58) ;
 }
