@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./svg/lebid.svg" type="image/svg+xml">
     <title>Registration-form</title>
 </head>
 
@@ -12,7 +13,7 @@
     <div class="form">
         <h2>Логін</h2>
         <br>
-        <form action="">
+        <form action="javascript:">
             <label for="name">Ім'я користувача:</label>
             <input type="text" id="name" name="name" placeholder="напишіть ім'я">
             <br>
@@ -22,6 +23,14 @@
             <div>
                 <input type="checkbox" id="checkbox" name="checkbox">
                 <label for="checkbox">Запам'ятати мене</label>
+            </div>
+            <div class="btn">
+
+                <button type="button">Button</button>
+                <br>
+                <button type="reset">Reset</button>
+                <br>
+                <button type="submit">Submit</button>
             </div>
         </form>
 
@@ -48,11 +57,11 @@
                 <label for="other">Інше</label>
             </div>
         </form>
-        
+
         <h2>Деталі</h2><br>
         <form action="">
             <label for="number">Улюблене число:</label>
-            <input type="number" id="number" name="number">
+            <input type="number" id="number" name="number" step="3">
             <br>
             <label for="volume">Діапазон:</label>
             <input type="range" id="volume" name="volume" min="0" max="100" value="50">
@@ -65,15 +74,6 @@
             <input type="file" id="myfile" name="myfile">
         </form>
         <br>
-        <div class="btn">
-
-            <button type="button">Button</button>
-            <br>
-            <button type="reset">Reset</button>
-            <br>
-            <button type="submit">Submit</button>
-        </div>
-
     </div>
 
 </body>
